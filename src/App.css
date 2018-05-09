@@ -1,33 +1,38 @@
 .App {
+  background-color: #000639;
   text-align: center;
-  background-color: #000639
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+button {
+  background-color: #5c6ac4;
+  color: #FFFFFF;
+  font-family: "Helvetica";
+  font-size: 16px;
+}
+.dash {
+  color: #7AB55C;
+  text-align: left;
 }
 
-.signup {
-  background-color: #5c6ac4  
+.email-warning {
+  color: #C23628;
+  font-family: "Helvetica";
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.free-tips {
+  color: #FFFFFF;
+  font-family: "Helvetica";
+  font-size: 16px;
 }
 
-.App-title {
-  font-size: 1.5em;
+.thanks {
+  color: #FFFFFF;
+  font-family: "Helvetica";
 }
 
-.App-intro {
-  font-size: large;
-}
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.title {
+  color: #FFFFFF;
+  font-family: "Helvetica";
+  font-size: 24px;
 }
