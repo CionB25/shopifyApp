@@ -1,7 +1,7 @@
 .App {
   background-color: #000639;
   padding-bottom: 400px;
-  padding-top: 200px;
+  padding-top: 150px;
 }
 
 .box {
@@ -12,10 +12,15 @@
 
 button {
   background-color: #5c6ac4;
+  border-color: #5c6ac4;
+  border-radius: 10px;
+  clear: both;
   color: #FFFFFF;
   font-family: "Helvetica";
   font-size: 16px;
-  clear: both;
+  height: 50px;
+  margin-top: 15px;
+  width: 100%;
 }
 .dash {
   color: #7AB55C;
@@ -23,11 +28,23 @@ button {
 }
 
 .dropdown {
-  margin-right: 30px;
+  border-color: #FFFFFF;
+  border-radius: 10px;
+  color: #7B7B7B;
+  font-size: 16px;
+  height: 43px;
+  padding-left: 10px;
+  width: 39%;
 }
 
 .email-biz {
-  margin-left: 30px;
+  border-color: #FFFFFF;
+  border-radius: 10px;
+  color: #7B7B7B;
+  font-size: 16px;
+  height: 43px;
+  padding-left: 10px;
+  width: 53%;
 }
 
 .email-warning {
@@ -42,20 +59,16 @@ button {
   margin-top: 50px;
 }
 
-/*.header {
-  margin-left: 150;
-  margin-right: 150;
-}*/
-
 .inputs {
   align-content: center;
+  font-size: 16px;
+  color: #7B7B7B
 }
 
 .thanks {
   color: #FFFFFF;
   font-family: "Helvetica";
 }
-
 
 .title {
   color: #FFFFFF;

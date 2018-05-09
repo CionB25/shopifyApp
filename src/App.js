@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -15,21 +14,19 @@ class App extends Component {
           <form>
             <p className="free-tips">Subscribe for free marketing tips</p>
             <span className="inputs">
-              <input className="email-biz" style={{float:"left"}}/>
-              <input className="dropdown" style={{float:"right"}}/>
+              <input className="email-biz" style={{float:"left"}} value="Email Address"/>
+              <input className="dropdown" style={{float:"right"}} value="Interested in..."/>
             </span>
               <div>
                 <button>Sign up now</button>
               </div>
 
-              <div>
-                < button>Submitting...</button>
-              </div>
+
           </form>
 
             <div className="thanks">
               <h3>Thanks for subscribing</h3>
-              <p>You--ll start receiving free tips and resources soon.</p>
+              <p>You'll start receiving free tips and resources soon.</p>
             </div>
           </div>
       </div>
@@ -38,3 +35,6 @@ class App extends Component {
 }
 
 export default App;
+// <div>
+//   < button>Submitting...</button>
+// </div>
