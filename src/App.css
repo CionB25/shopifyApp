@@ -1,6 +1,13 @@
 .App {
   background-color: #000639;
-  text-align: center;
+  padding-bottom: 400px;
+  padding-top: 200px;
+}
+
+.box {
+  margin-left: 470px;
+  margin-right: 470px;
+  text-align: left;
 }
 
 button {
@@ -8,10 +15,19 @@ button {
   color: #FFFFFF;
   font-family: "Helvetica";
   font-size: 16px;
+  clear: both;
 }
 .dash {
   color: #7AB55C;
   text-align: left;
+}
+
+.dropdown {
+  margin-right: 30px;
+}
+
+.email-biz {
+  margin-left: 30px;
 }
 
 .email-warning {
@@ -23,6 +39,16 @@ button {
   color: #FFFFFF;
   font-family: "Helvetica";
   font-size: 16px;
+  margin-top: 50px;
+}
+
+/*.header {
+  margin-left: 150;
+  margin-right: 150;
+}*/
+
+.inputs {
+  align-content: center;
 }
 
 .thanks {
@@ -35,4 +61,5 @@ button {
   color: #FFFFFF;
   font-family: "Helvetica";
   font-size: 24px;
+  margin-bottom: 10px;
 }
