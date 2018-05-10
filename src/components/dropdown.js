@@ -5,7 +5,8 @@ const Dropdown = (props) => {
 
 
   return (
-    <select id="mySelect" onMouseEnter={props.select} className="dropdown" style={{float:"right"}} placeholder="Interested in...">
+    <select onChange={props.select} className="dropdown" style={{float:"right"}} placeholder="Interested in...">
+      <option value="" disabled selected>Interested in...</option>
       <option value="marketing">Marketing</option>
       <option value="ecommerce">Ecommerce</option>
       <option value="Media">Media</option>

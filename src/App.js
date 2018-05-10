@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Button from './buttons'
+import Button from './components/buttons'
 import './App.css';
 
 class App extends Component {
@@ -8,7 +8,7 @@ class App extends Component {
     super()
 
     this.state = {
-      setEmail: "jt",
+      setEmail: "",
       inputVal: "",
       selectVal: "",
       validEmail: ""
@@ -26,16 +26,20 @@ class App extends Component {
     event.preventDefault()
     this.setState({
       selectVal: event.target.value
-    }, console.log(this.state.selectVal))
+    })
   }
 
   submit = (event) => {
     event.preventDefault()
     this.setState({
-      setEmail: this.state.validEmail
-    })
+      setEmail: "submitting"
+    }, this.interval)
     console.log(this.state.validEmail);
     console.log(this.state.selectVal);
+  }
+
+  interval = () => {
+    setTimeout(() => {this.setState({ setEmail: "Today"})}, 2000)
   }
 
   validate = (email) => {
@@ -46,7 +50,7 @@ class App extends Component {
    {
        this.setState({
          validEmail: email
-       }, console.log(this.state.validEmail))
+       })
    }
   }
 
@@ -61,7 +65,7 @@ class App extends Component {
             <h2 className="title">Stay up to date with ecommerce trends  with Shopify's Newsletter</h2>
             <p className="dash">__</p>
           </div>
-            <Button email={this.state.setEmail} inputVal={this.state.inputVal} change={this.change} select={this.select} submit={this.submit}/>
+            <Button email={this.state.setEmail} inputVal={this.state.inputVal} validEmail={this.state.validEmail} change={this.change} select={this.select} submit={this.submit}/>
         </div>
       </div>
     );
