@@ -29,12 +29,12 @@ button {
 
 .dropdown {
   border-color: #FFFFFF;
-  border-radius: 10px;
+  border-radius: 50px;
   color: #7B7B7B;
   font-size: 16px;
-  height: 43px;
+  height: 48px;
   padding-left: 10px;
-  width: 39%;
+  width: 41%;
 }
 
 .email-biz {
@@ -68,6 +68,7 @@ button {
 .thanks {
   color: #FFFFFF;
   font-family: "Helvetica";
+  margin-top: 60px;
 }
 
 .title {
