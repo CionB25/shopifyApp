@@ -59,11 +59,11 @@ class App extends Component {
 
 
     return (
-      <div className="App">
+      <div className="app">
         <div className="box">
           <div className="header">
             <h2 className="title">Stay up to date with ecommerce trends  with Shopify's Newsletter</h2>
-            <p className="dash">__</p>
+            <p className="dash">___</p>
           </div>
             <Button email={this.state.setEmail} inputVal={this.state.inputVal} validEmail={this.state.validEmail} change={this.change} select={this.select} submit={this.submit}/>
         </div>
